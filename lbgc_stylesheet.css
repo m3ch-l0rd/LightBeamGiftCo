@@ -7,7 +7,7 @@
 
 
 body {
-background-color: /*#1F51FF, purple*/#A9A5A5; /*#tan #FFD59A, #249D9F - aqua, #524F81         */
+background-color: /*#1F51FF,#A9A5A5 purple*/#249D9F; /*#tan #FFD59A,  - aqua, #524F81         */
 font-family: helvetica;
 color: /*#FF5C00, yellow*/#100C08; /*#AE6838 brown, #FD5E53 - sunset orange*, fb5e05, 99FF33, #FF0085,        */
 margin: 10px;
@@ -25,7 +25,7 @@ border-color: /*silver*/#100C08;/*#100C08*/
 border-radius: 10px;
 margin: 10px;
 padding: 10px;
-background-color: #7FFF00;
+background-color: #D5A848;/*#7FFF00*/
  
 
 
@@ -63,7 +63,7 @@ text-align: center
 
 
 a {
-color: #7FFF00;
+color: #D5A848;/*#7FFF00*/
 border: 2px, #100C08, solid;
 border-bottom: 4px, solid;
 border-right: 4px, solid;
