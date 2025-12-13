@@ -1,0 +1,134 @@
+
+
+
+
+
+
+
+
+body {
+background-color: /*#1F51FF, purple*/#A9A5A5; /*#tan #FFD59A, #249D9F - aqua, #524F81         */
+font-family: helvetica;
+color: /*#FF5C00, yellow*/#100C08; /*#AE6838 brown, #FD5E53 - sunset orange*, fb5e05, 99FF33, #FF0085,        */
+margin: 10px;
+
+
+}
+
+
+h1 {
+
+font-family: Helvetica;
+text-align: center;
+border: 9px, solid;
+border-color: /*silver*/#100C08;/*#100C08*/
+border-radius: 10px;
+margin: 10px;
+padding: 10px;
+background-color: #7FFF00;
+ 
+
+
+
+}
+
+div {
+/*border: 5px, solid;
+border-color: #100C08;
+*/
+
+margin: 10px;
+padding: 10px;
+
+}
+
+
+
+#compas {
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+
+}
+
+
+#bannercenter {
+text-align: center
+
+
+}
+
+
+a {
+color: #7FFF00;
+border: 2px, #100C08, solid;
+border-bottom: 4px, solid;
+border-right: 4px, solid;
+
+}
+
+
+h2 {
+
+text-decoration: underline;
+
+}
+
+p {
+
+border: 1px, solid, black;
+margin: 2px;
+padding: 2px;
+border-radius: 2px;
+
+}
+
+.item_background {
+
+background-color: grey;
+
+}
+
+
+.section {
+
+border: 2px, solid, #7FFF00;
+border-radius: 3px;
+
+}
+
+.price {
+text-align: right;
+
+}
+
+
+#green, .green {
+
+color: #7FFF00;
+}
+
+
+
+
+#button_center {
+
+text-align: center;
+}
+
+
+
+
+form {
+margin: 10px;
+padding: 10px;
+
+}
+
+
+
+
+
