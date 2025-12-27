@@ -42,6 +42,13 @@ padding: 10px;
 
 }
 
+img {
+margin: 5px;
+ padding: 5px;
+ 
+}
+
+
 
 
 #compas {
@@ -70,6 +77,11 @@ border-right: 4px, solid;
 
 }
 
+a:hover (
+font-size: 27px;
+
+)
+
 
 h2 {
 
@@ -89,7 +101,19 @@ border-radius: 2px;
 .item_background {
 
 background-color: grey;
+border: 2px, solid, #7FFF00;
+border-radius: 10%;
+padding: 10px;
+margin: 10px;
 
+}
+
+.item_img {
+
+border-radius: 15%;
+padding: 5px;
+margin: 5px;
+ 
 }
 
 
@@ -101,6 +125,7 @@ border-radius: 3px;
 }
 
 .price {
+
 text-align: right;
 
 }
@@ -109,24 +134,20 @@ text-align: right;
 #green, .green {
 
 color: #7FFF00;
+
 }
-
-
-
 
 #button_center {
 
 text-align: center;
 }
 
-
-
-
 form {
 margin: 10px;
 padding: 10px;
 
 }
+
 
 
 
