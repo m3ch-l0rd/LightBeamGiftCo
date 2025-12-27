@@ -74,13 +74,15 @@ color: #D5A848;/*#7FFF00*/
 border: 2px, #100C08, solid;
 border-bottom: 4px, solid;
 border-right: 4px, solid;
+padding: 5px;
+margin: 5px;
 
 }
 
-a:hover (
+a:hover {
 font-size: 27px;
 
-)
+}
 
 
 h2 {
@@ -147,6 +149,7 @@ margin: 10px;
 padding: 10px;
 
 }
+
 
 
 
