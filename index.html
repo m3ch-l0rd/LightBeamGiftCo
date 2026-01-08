@@ -1,160 +1,118 @@
+<!--
+1/8/2026 m3ch-l0rd aka bosque
+e-commerce the hard way!
+followed freecodecamp tutorial by Joy Shaheb https://www.youtube.com/watch?v=cT_ZYrS3tKc&t=7702s
 
+-->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<title>
-		Light Beam Gift Co. 
-	</title>
-	<link rel="stylesheet" href="lbgc_stylesheet.css"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Beam Gift Co.</title>
+    <link rel="stylesheet" href="docs/v3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
 </head>
-
 <body>
+    <div class="navbar">
+		<a id="logo" href="index_v3.html">
+        <h2>Light Beam Gift Co.</h2>
+        </a>
+        
+		<div class="cart">
+			<a href="cart.html">
+            <i class="bi bi-cart3"></i>
+            </a>
+            <div id="cartAmount" class="cartAmount">0</div>
+        </div>
+    </div>
 
+    <div class="shop" id="shop">
 
-<section class="section" id="home">
-	<div id="compas">
-		<img>
-		<img src="docs/assets/images/badassshotbro.jpg" height="400px" width="500px">
-		<img>
-	</div>
-	<div>
-		<h1>Light Beam Gift Co.</h1>
-		<p>Harnessing the power.. . of freaking laser beams!</p>
-	
-	</div>
+       <!-- 
+       
+       ********
+       NOW GENERATED FROM THE JS
+       ********
+       
+       <div class="item">
+            <img width="220" src="C:\Users\BOSQUE\Documents\VScode new projects\shoppingCart_tutorial\assets\mode_ZEN.jpg">
+            <div class="details">
+                <h3>flower_Sun</h3>
+                <p>you know you wan it</p>
+                <div class="price-quantity">
+                    <h2>$ 4.75</h2>
+						<div class="buttons">
+							<i class="bi bi-dash-lg"></i> 
+								<div class="quantity">0</div>
+							<i class="bi bi-plus-lg"></i> 
+						</div>
+                </div>
 
+            </div>
+        </div>
 
-	<div>
-		<div id="compas">
+        <div class="item">
+            <img width="220" src="C:\Users\BOSQUE\Documents\VScode new projects\shoppingCart_tutorial\assets\mode_ZEN.jpg">
+            <div class="details">
+                <h3>flower_Sun</h3>
+                <p>you know you wan it</p>
+                <div class="price-quantity">
+                    <h2>$ 4.75</h2>
+						<div class="buttons">
+							<i class="bi bi-dash-lg"></i> 
+								<div class="quantity">0</div>
+							<i class="bi bi-plus-lg"></i> 
+						</div>
+                </div>
 
-		<h2></h2>	
-		<h2><a href="#home">Home</a></h2>
-		<h2></h2>
-		<h2><a href="#shop">Shop</a></h2>
-		<h2></h2>
-		<h2><a href="#cart">Cart</a></h2>
-		<h2></h2>
-		</div>
-	</div>
-	<div class="item_background"><!--class="item_background -->
-		<h3>Personalized gifts, and Limited custom products made to order in Texas! </h3>
-		
-		<div id="compas">
-		<img src="docs/assets/images/sugarskullchick01.jpg" width="250px" height="250px">
-		<img src="docs/assets/images/" width="250px" height="250px">
-		<img src="docs/assets/images/alamoglass00.jpg" width="250px" height="250px">
-		</div>
-	</div>
-	<h2 id="bannercenter" class="green">"Mom and Pop manufacturing at its finest!"</h2>
-	<div>
-	
-	</div>
-</section>
+            </div>        
+        
+        </div>
 
-<section>
+        <div class="item">
+            <img width="220" src="C:\Users\BOSQUE\Documents\VScode new projects\shoppingCart_tutorial\assets\mode_ZEN.jpg">
+            <div class="details">
+                <h3>flower_Sun</h3>
+                <p>you know you wan it</p>
+                <div class="price-quantity">
+                    <h2>$ 4.75</h2>
+						<div class="buttons">
+							<i class="bi bi-dash-lg"></i> 
+								<div class="quantity">0</div>
+							<i class="bi bi-plus-lg"></i> 
+						</div>
+                </div>
 
-	<div>
-		<h2 id="shop">Drink Ware</h2>
-		<p>Our first product and best seller! American Made Glass precision laser crafting.</p>
-			<div class="section">
-			
-				
-				<div id="compas">
-					<div class="item_background" ><h3>Old Fashioned sets</h3> 
-					
-						<img 
-src="docs/assets/images/libbyGLASS.jpg"
-height="250px" width="250px" class="item_img">
-					<h3 class="price">$30</h3>
-					</div>
-					<div class="item_background"><h3>Hydration Bottle </h3>
-						<img 
-src="docs/assets/images/Hydration Botttle temp.webp"
-height="250px" width="250px" class="item_img">
-					<h3 class="price">$35</h3>
-					</div>
-				
-				</div>
-			</div>
-	
-	</div>
-	
-	
-	<div>
-		<h2 id="">Earings</h2>
-			<p>Freash laser cuts! Freash looks! Chonky THICK.</p>
-		
-		
-		<div class="section">	
-			<div id="compas">
-				
-				<div class="item_background" ><h3>flower_SUN</h3>
-					<img src="docs/assets/images/starFLOWER.jpg"
-				 	height="250px" width="250px" class="item_img" >
-					<h3 class="price">$4.75</h3>
-				</div>
-			
-				<div class="item_background"><h3>bud_ROSE</h3>
-					<img src="docs/assets/images/bud_ROSE.jpg"
-				 	height="250px" width="250px" class="item_img" >
-					<h3 class="price">$4.75</h3>
-				</div>
-		
-			</div>
-			<div id="compas">
-				
-				<div class="item_background" ><h3>slice_ORANGE</h3>
-					<img src="docs/assets/images/slice_ORANGE.jpg"
-				 	height="250px" width="250px" class="item_img" >
-					<h3 class="price">$4.75</h3>
-				</div>
-			
-				<div class="item_background"><h3>plumerian_EQUILIBRIUM</h3>
-					<img src="docs/assets/images/plumerian_EQUILIBRIUM.jpg"
-				 	height="250px" width="250px" class="item_img" >
-					<h3 class="price">$4.75</h3>
-				</div>
-		
-			</div>	
-			<div id="compas">
-				
-				<div class="item_background" ><h3>mode_ZEN</h3>
-					<img src="docs/assets/images/mode_ZEN.jpg"
-				 	height="250px" width="250px" class="item_img" >
-					<h3 class="price">$4.75</h3>
-				</div>
-			
-				<div class="item_background"><h3>bird_LOVE</h3>
-					<img src="docs/assets/images/bird_LOVE.jpg"
-				 	height="250px" width="250px" class="item_img" >
-					<h3 class="price">$4.75</h3>
-				</div>
-		
-			</div>		
+            </div>        
+        </div>
 
-		
-		
-		
-		
-		
-		
-		</div>
-		
-		
-		
-	
-	</div>
-	
-	
+        <div class="item">
+            <img width="220" src="C:\Users\BOSQUE\Documents\VScode new projects\shoppingCart_tutorial\assets\mode_ZEN.jpg">
+            <div class="details">
+                <h3>flower_Sun</h3>
+                <p>you know you wan it</p>
+                <div class="price-quantity">
+                    <h2>$ 4.75</h2>
+						<div class="buttons">
+							<i class="bi bi-dash-lg"></i> 
+								<div class="quantity">0</div>
+							<i class="bi bi-plus-lg"></i> 
+						</div>
+                </div>
 
+            </div>        
+        </div> -->
 
+    </div>
 
 </body>
 
-
+<script src="docs/Data.js"></script>
+<script src="docs/v3.js"></script>
+</html>
 
 
 
