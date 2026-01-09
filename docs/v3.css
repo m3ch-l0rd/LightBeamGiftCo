@@ -17,7 +17,7 @@ i {
 
 @font-face {
 	font-family: "harlow";
-	src: url(docs/fonts/harlow.ttf);
+	src: url(/fonts/harlow.ttf);
 	font-style: normal;
 
 }
@@ -210,6 +210,7 @@ background: white;
 	padding: 3px 6px;
 	
 }
+
 
 
 
