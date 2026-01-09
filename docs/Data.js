@@ -67,9 +67,10 @@ let shopItemsData = [
 	name: "llllllll",
 	price: "4.75",     
 	desc: "opopopopop",
-	img: "docs/assets/images/cosmos_FLOWER.jpg" alt="comming soon"}];
+	img: "docs/assets/images/cosmos_FLOWER.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
