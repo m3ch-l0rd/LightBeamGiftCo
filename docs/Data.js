@@ -24,14 +24,14 @@ let shopItemsData = [
 	id: "ood",
 	name: "slice_ORANGE",
 	price: "4.75",     
-	desc: "taste the citrus",
+	desc: "taste the citrus, be the citrus",
 	img: "docs/assets/images/slice_ORANGE.jpg"},
 	
 	{
 	id: "ooe",
 	name: "bird_LOVE",
 	price: "4.75",
-	desc: "sanctuary in the solidtude of self",
+	desc: "rare peace, selfless care",
 	img: "docs/assets/images/bird_LOVE.jpg"},
 	
 	{
@@ -45,17 +45,32 @@ let shopItemsData = [
 	id: "oog",
 	name: "drip_VINE",
 	price: "4.75",
-	desc: "green and wet",
+	desc: "green and wet..thats what she said",
 	img: "docs/assets/images/drip_VINE.jpg"},	
 
 	{
 	id: "ooh",
 	name: "cosmos_FLOWER",
 	price: "4.75",     
-	desc: "wish upon a flower",
-	img: "docs/assets/images/cosmos_FLOWER.jpg"}];
+	desc: "give the stars a break, wish upon a flower",
+	img: "docs/assets/images/cosmos_FLOWER.jpg"}
+
+	{
+	id: "oog",
+	name: "cake_POP",
+	price: "4.75",
+	desc: "hunt those demons down ",
+	img: "docs/assets/images/drip_VINE.jpg"},	
+
+	{
+	id: "ooh",
+	name: "llllllll",
+	price: "4.75",     
+	desc: "opopopopop",
+	img: "docs/assets/images/cosmos_FLOWER.jpg" alt="comming soon"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
