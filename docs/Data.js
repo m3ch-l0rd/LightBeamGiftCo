@@ -4,7 +4,7 @@ let shopItemsData = [
 	name: "mode_ZEN",
 	price: "4.75",
 	desc: "sanctuary in the solidtude of self",
-	img: "/assets/images/mode_ZEN.jpg"},
+	img: "docs/assets/images/mode_ZEN.jpg"},
 	
 	{
 	id: "sdfaggrtv",
@@ -25,9 +25,10 @@ let shopItemsData = [
 	name: "slice_ORANGE",
 	price: "4.75",     
 	desc: "taste the citrus",
-	img: "assets/images/slice_ORANGE.jpg"}];
+	img: "/images/slice_ORANGE.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
