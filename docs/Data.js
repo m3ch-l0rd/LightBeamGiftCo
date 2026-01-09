@@ -4,14 +4,14 @@ let shopItemsData = [
 	name: "mode_ZEN",
 	price: "4.75",
 	desc: "sanctuary in the solidtude of self",
-	img: "assets/images/mode_ZEN.jpg"},
+	img: "/assets/images/mode_ZEN.jpg"},
 	
 	{
 	id: "sdfaggrtv",
 	name: "flower_SUN",
 	price: "4.75",
 	desc: "I'm gonna soak up the sun I'm gonna tell everyone",
-	img: "assets/images/starFLOWER.jpg"},
+	img: "/assets/images/starFLOWER.jpg"},
 		
 	{
 	id: "adsfads",
@@ -28,5 +28,6 @@ let shopItemsData = [
 	img: "assets/images/slice_ORANGE.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
