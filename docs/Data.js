@@ -25,26 +25,28 @@ let shopItemsData = [
 	name: "slice_ORANGE",
 	price: "4.75",     
 	desc: "taste the citrus",
-	img: "docs/assets/images/slice_ORANGE.jpg"},	{
+	img: "docs/assets/images/slice_ORANGE.jpg"},
+	
+	{
 	id: "wefumuqsd",
 	name: "mode_ZEN",
 	price: "4.75",
 	desc: "sanctuary in the solidtude of self",
-	img: "docs/assets/images/mode_ZEN.jpg"},
+	img: "docs/assets/images/bird_LOVE.jpg"},
 	
 	{
 	id: "sdfaggrtv",
 	name: "flower_SUN",
 	price: "4.75",
 	desc: "I'm gonna soak up the sun I'm gonna tell everyone",
-	img: "docs/assets/images/starFLOWER.jpg"},
+	img: "docs/assets/images/bud_ROSE.jpg"},
 		
 	{
 	id: "adsfads",
 	name: "plumerian_EQUILIBRIUM",
 	price: "4.75",
 	desc: "BEAUTIFLLY balanced.. or imbalanced..",
-	img: "docs/assets/images/plumerian_EQUILIBRIUM.jpg"},	
+	img: "docs/assets/images/slice_ORANGE.jpg"},	
 
 	{
 	id: "sgkmjnvads",
@@ -54,6 +56,7 @@ let shopItemsData = [
 	img: "docs/assets/images/slice_ORANGE.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
