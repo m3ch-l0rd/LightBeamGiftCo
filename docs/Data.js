@@ -56,20 +56,21 @@ let shopItemsData = [
 	img: "docs/assets/images/cosmos_FLOWER.jpg"},
 
 	{
-	id: "oog",
+	id: "ooi",
 	name: "cake_POP",
 	price: "4.75",
 	desc: "hunt those demons gurl ",
 	img: "docs/assets/images/cake_POP.jpg"},	
 
 	{
-	id: "ooh",
+	id: "ooj",
 	name: "heavy_ROCKS",
 	price: "32.75",     
 	desc: "its like drinking out of a giant ice cube",
 	img: "docs/assets/images/libbyGLASS.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
