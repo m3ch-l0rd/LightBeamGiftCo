@@ -142,8 +142,29 @@ let TotalAmount = () => {
 	
 TotalAmount();
 
+async function checkout() {
+
+	const items = getCartItems();
+
+	const response = await fetch('/create-checkout-session', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json',
+		},
+		body: JSON.stringify({
+			items: items.map(item => ({
+				price_id: item.priceId,
+				quantity: item.quantity
+			}))
+		}),
+	});
+
+	const { clientSecret } = await response.json();
+}
+
 	
 	
 	
 	
+
 
