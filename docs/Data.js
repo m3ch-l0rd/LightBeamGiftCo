@@ -49,7 +49,7 @@ let shopItemsData = [
 	img: "docs/assets/images/drip_VINE.jpg"},	
 
 	{
-	id: "ooh",
+	id: "price_1SoBbQBHlMQxpyuOl3Vaa4b8",
 	name: "cosmos_FLOWER",
 	price: "4.75",     
 	desc: "give the stars a break, wish upon a flower",
@@ -70,6 +70,7 @@ let shopItemsData = [
 	img: "docs/assets/images/libbyGLASS.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
