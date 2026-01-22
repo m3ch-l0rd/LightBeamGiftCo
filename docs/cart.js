@@ -144,7 +144,7 @@ TotalAmount();
 
 async function checkout() {
 
-	const items = getCartItems();
+	const items = basket;
 
 	const response = await fetch('/create-checkout-session', {
 		method: 'POST',
@@ -166,5 +166,6 @@ async function checkout() {
 	
 	
 	
+
 
 
