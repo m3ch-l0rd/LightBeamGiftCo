@@ -133,7 +133,7 @@ let TotalAmount = () => {
 			
 			label.innerHTML = `
 				<h2>Subtotal : $ ${amount}</h2>
-				<button class="checkout">Checkout</button>
+				<button class="checkout" onclick="checkout()">Checkout</button>
 				<button onclick="clearCart()" class="removeAll">Clear Cart</button>
 			`;
 				}	else return;
@@ -166,6 +166,7 @@ async function checkout() {
 	
 	
 	
+
 
 
 
