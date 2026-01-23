@@ -58,4 +58,5 @@ def session_status():
   return jsonify(status=session.status, customer_email=session.customer_details.email)
 
 if __name__ == '__main__':
-    app.run(port=4242)
+
+    app.run(port=YOUR_DOMAIN)
