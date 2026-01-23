@@ -153,8 +153,8 @@ async function checkout() {
 		},
 		body: JSON.stringify({
 			items: items.map(item => ({
-				price_id: item.priceId,
-				quantity: item.quantity
+				price_id: item.id,
+				quantity: item.item
 			}))
 		}),
 	});
@@ -166,6 +166,7 @@ async function checkout() {
 	
 	
 	
+
 
 
 
