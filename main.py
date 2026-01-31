@@ -37,14 +37,14 @@ def create_checkout_session():
             })
 
         session = stripe.checkout.Session.create(
-            ui_mode = 'embedded',
             line_items=line_items,
             mode='payment',
-            return_url=YOUR_DOMAIN + '/return.html?session_id={CHECKOUT_SESSION_ID}',
+            success_url = YOUR_DOMAIN + '/success.html?session_id={CHECKOUT_SESSION_ID}',
+            cancel_url = YOUR_DOMAIN + '/cart.html'
             automatic_tax={'enabled': True},
         )
 
-        return jsonify(clientSecret=session.client_secret)      
+        return jsonify(url=session.url)      
     except Exception as e:
         return str(e), 400
     # 400??
@@ -60,3 +60,4 @@ def session_status():
 if __name__ == '__main__':
 
     app.run(port=YOUR_DOMAIN)
+
