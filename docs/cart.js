@@ -143,9 +143,8 @@ let TotalAmount = () => {
 TotalAmount();
 
 async function checkout() {
-
+	try {
 	const items = basket;
-
 	const response = await fetch('/create-checkout-session', {
 		method: 'POST',
 		headers: {
@@ -159,13 +158,18 @@ async function checkout() {
 		}),
 	});
 
-	const { clientSecret } = await response.json();
+	const { url } = await response.json();
+		window.location.href = url;
+} catch (error) {
+		console.error("Error during checkout:", error);
+	}
 }
 
 	
 	
 	
 	
+
 
 
 
