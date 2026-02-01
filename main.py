@@ -24,6 +24,11 @@ YOUR_DOMAIN = 'https://www.lightbeamgiftco.com'
 
 @app.route('/create-checkout-session', methods=['POST'])
 def create_checkout_session():
+            
+
+    payload=request.data
+    sig_header=request.headers.get('Stripe-Signature')
+    endpoint_secret=os.getenv('checkout_endpoint_secret')
     try:
 
         cart_items = request.json.get('items',[])
@@ -60,4 +65,5 @@ def session_status():
 if __name__ == '__main__':
 
     app.run(port=YOUR_DOMAIN)
+
 
