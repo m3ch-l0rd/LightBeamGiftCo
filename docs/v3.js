@@ -72,7 +72,7 @@ generateShop();
 
 function toggleDropdown() {
 document.getElementById("dropdownMenu").classList.toggle("show");
-}
+};
 
 // Close dropdown if clicked outside
 window.onclick = function(event) {
@@ -85,7 +85,7 @@ openDropdown.classList.remove('show');
 }
 }
 }
-}
+};
 
 
 
@@ -139,6 +139,7 @@ let calculation = () => {
 	cartIcon.innerHTML = basket.map((x) => x.item).reduce((x,y) => x + y, 0);
 	
 };
+
 
 
 
