@@ -70,6 +70,26 @@ let generateShop = () => {
 generateShop();
 
 
+function toggleDropdown() {
+document.getElementById("dropdownMenu").classList.toggle("show");
+}
+
+// Close dropdown if clicked outside
+window.onclick = function(event) {
+if (!event.target.matches('.dropdown-toggle')) {
+const dropdowns = document.getElementsByClassName("dropdown-content");
+for (let i = 0; i < dropdowns.length; i++) {
+const openDropdown = dropdowns[i];
+if (openDropdown.classList.contains('show')) {
+openDropdown.classList.remove('show');
+}
+}
+}
+}
+
+
+
+
 let increment = (id) => {
 	let selectedItem = id;
 	
@@ -119,6 +139,7 @@ let calculation = () => {
 	cartIcon.innerHTML = basket.map((x) => x.item).reduce((x,y) => x + y, 0);
 	
 };
+
 
 
 
