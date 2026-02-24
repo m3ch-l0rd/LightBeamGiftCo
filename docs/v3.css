@@ -46,6 +46,7 @@ i {
 
 .navButtonBox {
 	display: flex;
+	gap: 4px;
 	
 }
 
@@ -252,6 +253,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
