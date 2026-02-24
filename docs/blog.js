@@ -13,7 +13,7 @@ let generatePostBoard = () => {
 
         return `
         <div class="post">
-            <img width="440px" src="${img}"></img>
+            <img id="postImg" src="${img}"></img>
             <div>
                 <h3>${date}</h3>
                 <h3>${title}</h3>
@@ -22,5 +22,6 @@ let generatePostBoard = () => {
         </div>`;
         }).join(""));
      };
+
 
 generatePostBoard();
