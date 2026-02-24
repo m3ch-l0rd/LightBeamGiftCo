@@ -1,3 +1,15 @@
+/* ************************ ------------------ ************************** */
+/* ************************** 
+BY: m3ch-l0rd aka bosqueblanco aka sumcrzycrzyfool
+DATE: 02242026
+'ONE CSS TO RULE THEM ALL CONCEPT'
+**************************** */
+/* ************************ ------------------ ************************** */
+
+
+/* ************************ ------------------ ************************** */
+/* ************************** GLOBAL BODY   **************************** */
+/* ************************ ------------------ ************************** */
 * {
     margin: 0;
     padding: 0;
@@ -12,16 +24,19 @@ body{
 
 i {
 	cursor: pointer;
-
+	/*WORKS ON ALL PAGES EXCEPT BLOG AFTER CLICK ?!?*/
 }
 /*
+THIS NEVER WORKED OUTSIDE OF LOCAL SANDBOX ?!?
 @font-face {
 	font-family: "harlow";
 	src: url(fonts/harlow.TTF);
 	font-style: normal;
-
 } */
 
+/* ************************ ------------------ ************************** */
+/* ************************** NAVBAR ...ALLL PAGES?   **************************** */
+/* ************************ ------------------ ************************** */
 .navbar {
     display: flex;
     flex-direction: row;
@@ -31,10 +46,6 @@ i {
     padding: 25px 60px;
     margin-bottom: 10px;
 }
-/**
-*!25px top and bottom , 60px left and right
-**/
-
 
 #logo {
 	color: #D5A848;
@@ -51,7 +62,7 @@ i {
 }
 
 
-.cart {
+.cart, .blogButton {
     position: relative;
    background-color: white;
    color:#D5A848;
@@ -59,7 +70,6 @@ i {
    padding: 5px;
    border-radius: 4px;
    border: solid, 2px, #D5A848;
-   
 
 }
 
@@ -104,6 +114,10 @@ align-items: center;
     /
     */background-color:;*/
 }
+
+/* ************************ ------------------ ************************** */
+/* ************************** @media RULES  **************************** */
+/* ************************ ------------------ ************************** */
 
 @media (max-width: 1000px){
 .shop {
@@ -190,6 +204,12 @@ align-items: center;
 	margin-bottom: 20px;
 }
 
+
+/* ************************ ------------------ ************************** */
+/* ************************** CART PAGE CSS  **************************** */
+/* ************************ ------------------ ************************** */
+
+
 .homeBtn, .checkout,
 .removeAll {
 	background-color: #212529;
@@ -262,6 +282,14 @@ background: white;
 	padding: 3px 6px;
 	
 }
+
+
+
+
+
+/* ************************ ------------------ ************************** */
+/* ************************** FOOTER ALL PAGES  **************************** */
+/* ************************ ------------------ ************************** */
 footer {
     background-color:#344E41;
     margin-top: 8px;
@@ -278,6 +306,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
