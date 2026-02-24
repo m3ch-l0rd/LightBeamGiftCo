@@ -72,6 +72,26 @@ i {
     padding: 3px;
     border-radius: 3px;
 }
+
+.postBoardsDaddy {
+display: flex;
+justify-content: center; /* Horizontal centering */
+align-items: center;
+
+}
+.postBoard {
+    
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    border: solid black 3px;
+    width: 448px;
+    padding: 4px;
+
+}
 /**
 *! shop items styles here
 **/
@@ -216,6 +236,7 @@ background: white;
 	padding: 3px 6px;
 	
 }
+
 
 
 
