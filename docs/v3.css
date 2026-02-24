@@ -98,10 +98,8 @@ align-items: center;
 }
 
 .post {
-	display: flex;
-	justify-content: center;
-    border: solid black 3px;
-    width: 648px;
+	border: solid black 3px;
+    width: 700px;
     padding: 4px;
 
 }
@@ -134,7 +132,7 @@ align-items: center;
 
 .post {
     border: solid black 3px;
-    width: 600px;
+    width: 500px;
     padding: 4px;
 
 }
@@ -147,14 +145,14 @@ align-items: center;
     }
     .postBoard {
     
-    width: 400px;
+    width: 300px;
     display: flex;
     justify-content: center;
 }
 
 .post {
     border: solid black 3px;
-    width: 400px;
+    width: 240px;
     padding: 4px;
 
 }
@@ -308,6 +306,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
