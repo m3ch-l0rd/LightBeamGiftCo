@@ -82,14 +82,14 @@ align-items: center;
 }
 .postBoard {
     
-    width: 600px;
+    width: 800px;
     display: flex;
     justify-content: center;
 }
 
 .post {
     border: solid black 3px;
-    width: 448px;
+    width: 648px;
     padding: 4px;
 
 }
@@ -109,7 +109,19 @@ align-items: center;
 .shop {
         grid-template-columns: repeat(2,223px);
     }
+.postBoard {
+    
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
 
+.post {
+    border: solid black 3px;
+    width: 600px;
+    padding: 4px;
+
+}
 
 }
 
@@ -117,6 +129,19 @@ align-items: center;
 .shop {
         grid-template-columns: repeat(1,223px);
     }
+    .postBoard {
+    
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.post {
+    border: solid black 3px;
+    width: 400px;
+    padding: 4px;
+
+}
 }
 
 .item {
@@ -253,6 +278,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
