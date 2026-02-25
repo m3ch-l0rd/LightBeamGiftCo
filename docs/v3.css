@@ -132,6 +132,7 @@ align-items: center;
     border: solid black 3px;
     width: 400px;
     padding: 4px;
+	font-size: 16px;
 
 }
 #postImg {
@@ -149,6 +150,7 @@ align-items: center;
     border: solid black 3px;
     width: 240px;
     padding: 4px;
+	font-size: 16px;
 #postImg {
 	width: 220px;
 	
@@ -305,6 +307,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
