@@ -107,7 +107,7 @@ align-items: center;
 
 #postImg {
 	width: 480px;
-	margin: auto;	
+	padding: auto;	
 }
 /**
 *! shop items styles here
@@ -117,8 +117,7 @@ align-items: center;
     grid-template-columns: repeat(4, 223px);
     gap: 30px;
     justify-content: center;
-    /
-    */background-color:;*/
+    /*background-color:;*/
 }
 
 /* ************************ ------------------ ************************** */
@@ -137,7 +136,7 @@ align-items: center;
 }
 #postImg {
 	width: 360px;
-	margin: auto;
+	padding: auto;
 }
 
 }
@@ -152,7 +151,7 @@ align-items: center;
     padding: 4px;
 #postImg {
 	width: 220px;
-	margin: auto;
+	padding: auto;
 }
 
 }
@@ -306,6 +305,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
