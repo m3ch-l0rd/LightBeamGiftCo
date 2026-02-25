@@ -100,14 +100,14 @@ align-items: center;
 
 .post {
 	border: solid black 3px;
-    width: 600px;
+    width: 520px;
     padding: 4px;
 
 }
 
 #postImg {
 	width: 480px;
-	padding: auto;	
+		
 }
 /**
 *! shop items styles here
@@ -136,7 +136,7 @@ align-items: center;
 }
 #postImg {
 	width: 360px;
-	padding: auto;
+
 }
 
 }
@@ -151,7 +151,7 @@ align-items: center;
     padding: 4px;
 #postImg {
 	width: 220px;
-	padding: auto;
+	
 }
 
 }
@@ -305,6 +305,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
