@@ -63,13 +63,14 @@ THIS NEVER WORKED OUTSIDE OF LOCAL SANDBOX ?!?
 
 
 .cart, .blogButton {
-    position: relative;
-   background-color: white;
-   color: #D5A848;
-   font-size: 30px;
-   padding: 5px;
-   border-radius: 4px;
-   border: solid, 2px, #D5A848;
+	position: relative;
+   	background-color: white;
+   	color: #D5A848;
+   	font-size: 30px;
+   	padding: 5px;
+   	border-radius: 4px;
+   	border: solid, 2px, #D5A848;
+	max-height: 50px;
 
 }
 
@@ -106,7 +107,7 @@ align-items: center;
 
 #postImg {
 	width: 480px;
-	
+	margin: auto;	
 }
 /**
 *! shop items styles here
@@ -136,6 +137,7 @@ align-items: center;
 }
 #postImg {
 	width: 360px;
+	margin: auto;
 }
 
 }
@@ -150,6 +152,7 @@ align-items: center;
     padding: 4px;
 #postImg {
 	width: 220px;
+	margin: auto;
 }
 
 }
@@ -303,6 +306,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
