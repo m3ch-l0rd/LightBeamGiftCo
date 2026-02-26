@@ -92,7 +92,8 @@ align-items: center;
 
 }
 .postBoard {
-    
+	display: grid;
+	grid-template-columns: repeate(1,);
     width: 600px;
     justify-content: center;
 }
@@ -306,6 +307,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
