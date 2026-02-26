@@ -94,7 +94,6 @@ align-items: center;
 .postBoard {
     
     width: 600px;
-    display: flex;
     justify-content: center;
 }
 
@@ -307,6 +306,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
