@@ -18,7 +18,7 @@ DATE: 02242026
 
 body{
     font-family: Courier New;
-	background-color: #DBF3C9;
+	background-color: white; /*#DBF3C9*/
 
 }
 
@@ -84,7 +84,11 @@ THIS NEVER WORKED OUTSIDE OF LOCAL SANDBOX ?!?
     padding: 3px;
     border-radius: 3px;
 }
-
+/* //////////////////////////////////////////////
+--------------------------------------------------
+POST BOARD 
+--------------------------------------------------
+ /////////////////////////////////////////////// */
 .postBoardsDaddy {
 display: flex;
 justify-content: center; /* Horizontal centering */
@@ -121,6 +125,43 @@ align-items: center;
     /*background-color:;*/
 }
 
+.item {
+    border: 2px, solid, #344341;
+    border-radius: 4px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    flex: 33.3%;
+    padding: 10px;
+    gap: 10px;
+    max-width: 220px; 
+    /* ^tryna get the name in the box...does nothing*/
+    background-color: #FAF9F6;
+}
+
+
+.price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    font-size: 16px;
+
+}
+
+.text-center {
+	text-align: center;
+	margin-bottom: 20px;
+}
 /* ************************ ------------------ ************************** */
 /* ************************** @media RULES  **************************** */
 /* ************************ ------------------ ************************** */
@@ -157,53 +198,6 @@ align-items: center;
 	width: 220px;
 }
 }
-
-.item {
-    border: 2px, solid, #344341;
-    border-radius: 4px;
-}
-
-.details {
-    display: flex;
-    flex-direction: column;
-    flex: 33.3%;
-    padding: 10px;
-    gap: 10px;
-    max-width: 220px; 
-    /* ^tryna get the name in the box...does nothing*/
-    background-color: #FAF9F6;
-}
-
-
-.price-quantity {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.buttons {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    font-size: 16px;
-
-}
-
-
-
-
-/**
- * !style rules for label and buttons
-**/
-
-
-.text-center {
-	text-align: center;
-	margin-bottom: 20px;
-}
-
 
 /* ************************ ------------------ ************************** */
 /* ************************** CART PAGE CSS  **************************** */
@@ -283,10 +277,6 @@ background: white;
 	
 }
 
-
-
-
-
 /* ************************ ------------------ ************************** */
 /* ************************** FOOTER ALL PAGES  **************************** */
 /* ************************ ------------------ ************************** */
@@ -306,6 +296,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
