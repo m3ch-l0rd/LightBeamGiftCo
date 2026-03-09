@@ -40,12 +40,12 @@ let generateShop = () => {
 	return (shop.innerHTML = shopItemsData
 	.map((x) => {
 		
-		let {id, name, price, desc, img} = x;
+		let {id, name, price, desc, img, alt} = x;
 		let search = basket.find((x) => x.id === id) || [];
 		
 		return `		
 		<div id=product-id-${id} class="item">
-            <img width="220" src=${img}>
+            <img width="220" src=${img} alt=${alt}>
             <div class="details">
                 <h3>${name}</h3>
                 <p>${desc}</p>
@@ -118,6 +118,7 @@ let calculation = () => {
 	cartIcon.innerHTML = basket.map((x) => x.item).reduce((x,y) => x + y, 0);
 	
 };
+
 
 
 
