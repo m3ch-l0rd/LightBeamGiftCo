@@ -5,7 +5,7 @@ let shopItemsData = [
 	price: "4.75",
 	desc: "sanctuary in the solidtude of self",
 	img: "docs/assets/images/mode_ZEN.jpg",
-	alt: "#wood earrings"},
+	alt: "natural finish lazer cut wood earrings"},
 	
 	{
 	id: "price_1SdsRSBHlMQxpyuO2Dd9qCS9",
@@ -71,6 +71,7 @@ let shopItemsData = [
 	img: "docs/assets/images/libbyGLASS.jpg"}];
 
 /*let basket = JSON.parse(localStorage.getItem("data")) || [];*/
+
 
 
 
