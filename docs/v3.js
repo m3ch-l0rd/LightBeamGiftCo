@@ -45,7 +45,7 @@ let generateShop = () => {
 		
 		return `		
 		<div id=product-id-${id} class="item">
-            <img width="220" src=${img} alt=${alt}>
+            <img width="220" src=${img} alt=${alt}">
             <div class="details">
                 <h3>${name}</h3>
                 <p>${desc}</p>
@@ -118,6 +118,7 @@ let calculation = () => {
 	cartIcon.innerHTML = basket.map((x) => x.item).reduce((x,y) => x + y, 0);
 	
 };
+
 
 
 
