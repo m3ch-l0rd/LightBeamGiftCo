@@ -18,6 +18,8 @@ DATE: 02242026
 
 body{
     font-family: Courier New;
+	background-image: url(assets/images/FLAG_cross.png);
+	background-repeat: no-repeat;
 	background-color: white; /*#DBF3C9*/
 
 }
@@ -296,6 +298,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
