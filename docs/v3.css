@@ -26,6 +26,13 @@ body{
 	background-color: white; /*#DBF3C9*/
 
 }
+@media screen and (max-width: 919px) {
+  /* CSS rules for screens 919px and less (i.e., less than 920px) go here */
+  body {
+    background-repeat: repeat;
+  }
+}
+
 
 i {
 	cursor: pointer;
@@ -301,6 +308,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
