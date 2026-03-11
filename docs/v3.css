@@ -141,6 +141,7 @@ align-items: center;
 .item {
     border: 2px, solid, #344341;
     border-radius: 4px;
+	background-color: #DADEDF;
 }
 
 .details {
@@ -151,7 +152,7 @@ align-items: center;
     gap: 10px;
     max-width: 220px; 
     /* ^tryna get the name in the box...does nothing*/
-    background-color: #FAF9F6;
+    /*background-color: #FAF9F6;*/
 }
 
 
@@ -309,6 +310,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
