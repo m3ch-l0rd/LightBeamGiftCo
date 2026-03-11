@@ -116,6 +116,7 @@ align-items: center;
 }
 
 .post {
+	background-color: #DADEDF; /*created after began using img background */
 	border: solid black 3px;
     width: 520px;
     padding: 4px;
@@ -308,6 +309,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
