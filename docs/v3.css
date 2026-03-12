@@ -306,11 +306,19 @@ footer {
 
 }
 
-
+.footerItem {
+	font-size: 2rem;
+	color: white;
+}
 
 #cartPgOnly {
     margin-top: 250px;
 }
+
+#returnPostOnly {
+	margin-top: 90px;
+}
+
 
 
 
