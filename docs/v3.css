@@ -120,13 +120,14 @@ align-items: center;
 	border: solid black 3px;
     width: 520px;
     padding: 4px;
-
+	line-height: 1.25;
 }
 
 #postImg {
 	width: 480px;
 		
 }
+
 /**
 *! shop items styles here
 **/
@@ -310,6 +311,7 @@ footer {
 #cartPgOnly {
     margin-top: 250px;
 }
+
 
 
 
